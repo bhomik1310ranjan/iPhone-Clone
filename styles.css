@@ -1,0 +1,251 @@
+.background{
+    background-image: linear-gradient(45deg, #e7a6f6, #34288e, #2f9800, #b8e2b4);
+}
+
+.container1{
+    width: 298px;
+    height: 540px;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+
+.front-screen{
+    height: 536px;
+    width: 286px;
+    border: 2px solid #c2bcc9;
+    border-radius: 47px;
+    position: absolute;
+    left: 4px;
+    top: 0px;
+}
+
+.screen{
+    height: 520px;
+    width: 270px;
+    background-image: linear-gradient(#f489f3,#490e8c, #030022, #000000, #274a72, #ccd9e2);
+    border: 8px solid black;
+    border-radius: 45px;
+}
+
+.upper-semicircle{
+    width: 270px;
+    height: 230px;
+    border-bottom: 3px solid #f489f3;
+    border-radius: 0px 0px 135px 135px;
+    position: absolute;
+    left: 10px;
+    top: 35px
+}
+
+.lower-semicircle{
+    width: 270px;
+    height: 230px;
+    border-top: 3px solid #ffffff;
+    border-radius: 135px 135px 0px 0px;
+    position: absolute;
+    left: 10px;
+    bottom: 35px
+}
+
+.dynamic-island{
+    width: 70px;
+    height: 18px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 60px;
+    position: absolute;
+    left: 100px;
+    top: 14px;
+}
+
+.front-camera{
+    width: 8px;
+    height: 8px;
+    background-image: radial-gradient(#274461, #09162c);
+    border: 1px solid #bcb4e5;
+    border-radius: 50%;
+    position: absolute;
+    left: 56px;
+    top: 3.5px
+}
+
+.date{
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 95px;
+    top: 60px;
+    line-height: 0px;
+}
+
+.time{
+    color: white;
+    font-size: 65px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 82px;
+    top: 98px;
+    line-height: 0px;
+}
+
+.button{
+    width: 4px;
+    background-color: #bcb4e5;
+    border-radius: 5px;
+}
+
+#slider1{
+    height: 32px;
+    position: absolute;
+    left: 2px;
+    top: 80px;
+}
+
+#volumeUp1{
+    height: 50px;
+    position: absolute;
+    left: 2px;
+    top: 130px;
+}
+
+#volumeDown1{
+    height: 50px;
+    position: absolute;
+    left: 2px;
+    top: 190px;
+}
+
+#onoff1{
+    height: 50px;
+    position: absolute;
+    right: 2px;
+    top: 80px;
+}
+
+.container2{
+    width: 298px;
+    height: 540px;
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+
+.back{
+    height: 536px;
+    width: 286px;
+    border: 2px solid #bcb4e5;
+    border-radius: 47px;
+    background-color: #afa2f0;
+    position: absolute;
+    left: 4px;
+    top: 0px;
+}
+
+.camera{
+    width: 110px;
+    height: 110px;
+    background-color: #afa2f0;
+    border: 4px solid #bcb4e5;
+    border-radius: 35px;
+    position: absolute;
+    left: 20px;
+    top: 16px;
+}
+
+.cam{
+    width: 35px;
+    height: 35px;
+    background-color: #0f1f3b;
+    border: 3px solid #bcb4e5;
+    border-radius: 50%;
+}
+
+#cam1{
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+#cam2{
+    position: absolute;
+    left: 10px;
+    bottom: 12px;
+}
+
+#cam3{
+    position: absolute;
+    right: 14px;
+    top: 34px;
+}
+
+.lens{
+    width: 16px;
+    height: 16px;
+    background-image: radial-gradient(rgb(144, 184, 222) 5%, #274461 20%, #09162c 75%);
+    border: 1px solid #274461;
+    border-radius: 50%;
+    position: absolute;
+    left: 8.5px;
+    top: 8.5px
+}
+
+.other{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #afa2f0;
+    border-radius: 50%;
+}
+
+#flash{
+    background-image: radial-gradient(rgb(242, 237, 167), white);
+    position: absolute;
+    right: 28px;
+    top: 16px;
+}
+
+#sensor{
+    background-image: radial-gradient(#274461 20%, #09162c 80%);
+    position: absolute;
+    right: 28px;
+    bottom: 16px;
+}
+
+#logo{
+    width: 90px;
+    height: 90px;
+    opacity: 0.4; 
+    position: absolute;
+    top: 210px;
+    left: 99px;
+}
+
+#slider2{
+    height: 32px;
+    position: absolute;
+    right: 2px;
+    top: 80px;
+}
+
+#volumeUp2{
+    height: 50px;
+    position: absolute;
+    right: 2px;
+    top: 130px;
+}
+
+#volumeDown2{
+    height: 50px;
+    position: absolute;
+    right: 2px;
+    top: 190px;
+}
+
+#onoff2{
+    height: 50px;
+    position: absolute;
+    left: 2px;
+    top: 80px;
+}
